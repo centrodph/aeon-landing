@@ -298,31 +298,31 @@ $(function() {
 
 
 
-/*--------------------------------------------------------------
-    Appoinment Popup box
---------------------------------------------------------------*/
-    (function() {
-        var makeAppoinmentBtn = $('.make-appointment-btn'),
-            appoinmentPopUpBox = $('.appoinment-popup-box'),
-            closeBtn = $('.appoinment-popup-box .close');
+// /*--------------------------------------------------------------
+//     Appoinment Popup box
+// --------------------------------------------------------------*/
+//     (function() {
+//         var makeAppoinmentBtn = $('.make-appointment-btn'),
+//             appoinmentPopUpBox = $('.appoinment-popup-box'),
+//             closeBtn = $('.appoinment-popup-box .close');
 
-        makeAppoinmentBtn.on('click', function(e) {
-            e.preventDefault();
-            appoinmentPopUpBox.css({
-                'visibility': 'visible',
-                'opacity': 1
-            });
+//         makeAppoinmentBtn.on('click', function(e) {
+//             e.preventDefault();
+//             appoinmentPopUpBox.css({
+//                 'visibility': 'visible',
+//                 'opacity': 1
+//             });
 
-            closeBtn.on('click', function() {
-                appoinmentPopUpBox.css({
-                    'visibility': 'hidden',
-                    'opacity': 0
-                });
-                return false;
-            });
-            return false;
-        });
-    }());
+//             closeBtn.on('click', function() {
+//                 appoinmentPopUpBox.css({
+//                     'visibility': 'hidden',
+//                     'opacity': 0
+//                 });
+//                 return false;
+//             });
+//             return false;
+//         });
+//     }());
 
 
 
